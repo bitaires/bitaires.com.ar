@@ -5,8 +5,7 @@
 $max-width: 800px;
 
 body {
-  background: #d1e1f0 url("../img/background.jpg");
-  background-size: cover;
+  background: #d1e1f0 url("../img/background.jpg") top center no-repeat;
   color: #666;
 }
 
@@ -36,7 +35,7 @@ body {
 
 .wrap {
   @include outer-container;
-  margin-top: 40px;
+  margin-top: 85px;
   margin-bottom: 40px;
   background: white;
   box-shadow: 0 0 3px #5696cc;
